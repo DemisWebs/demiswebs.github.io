@@ -1,134 +1,102 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es-VE">
 	<head>
 		<meta charset="UTF-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" href="css/main.css">
+		<link rel="stylesheet" href="fta/all.min.css">
+		<link rel="icon" href="img/icon.ico">
 		<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-		<link rel="stylesheet" href="assets/estilos.css">
-		<link rel="stylesheet" href="css/all.min.css">
-		<script src="assets/main.js"></script>
-		<meta name="description" content="✅ Crea ya tu sitio Web con DemisWebs | Lo mejor para el diseño de Páginas Web en Venezuela. Diseño Web en Nueva Esparta | Los Mejores Precios del Mercado">
-		<link rel="icon" href="img/logo.png">
-		<meta name="google-site-verification" content="Ph5_unFgoH4ttlCw_UcKjMkI1T9I3LffUMGoCkuyp0M" />
-		<title>ᐅ DemisWebs | La Mejor opción de Diseño Web en Venezuela para tu Negocio | 2022</title>
-	</head>
-	<body>
-		<div id="contenedor_carga">
-			<div id="carga"></div>
-		</div>
-		<header>
-			
-			<div class="nav">
-				<div class="logo-header">
-					<h2>Demis<b>Webs</b></h2>
-				</div>
-				<nav class="nav-menu">
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css">
+		<title>ᐅ DemisWebs | La Mejor opción de Diseño Web en Venezuela ...</title>
+		<body>
+			<div id="contenedor-carga">
+				<div id="contenedor-carga__thumb"></div>
+			</div>
+			<header>
+				<div class="header-ctn">
+					<a href="index.html" class="header-ctn__home" title="Desarrollador Web para tu Empresa"><h2><img class="header-ctn__logo" src="img/logo.png" alt="Logo">DemisWebs</h2></a>
 					<input type="checkbox" id="check">
-					<label for="check" class="checkbtn"><i class="fa-solid fa-bars"></i></label>
-					
-					<ul>
-						<li><a href="index.html">Inicio</a></li>
-						<li><a href="#info">Información</a></li>
-						<li><a href="#form">Contacto</a></li>
-					</ul>
+					<label for="check" id="checkbtn"><i class="fa-solid fa-bars-staggered"></i></label>
+					<label for="check" id="close"><i class="fa-solid fa-xmark"></i></label>
+					<nav class="header-ctn__nav">
+						<a href="#info">Información</a>
+						<a href="#portafolios">Portafolios</a>
+					</nav>
 				</div>
-				<div class="header">
-					
-					<div id="txt-cont" data-aos="fade-right" data-aos-duration="1700">
-						<h1 class="tittle">La Mejor opción para el Diseño de Páginas Web en Venezuela</h1>
-						<p class="info-header">Así es, con nosotros conseguirás subir tu página Web, con muchos beneficios...<br> Conoce más sobre DemisWebs</p>
-					</div>
-					<div data-aos="zoom-in" data-aos-duration="1100">
-						<img src="img/ilustration1.svg" alt="Ilustration-build" class="img-build">
+				<div class="sub-header">
+					<div class="sub-header__title" data-aos="fade-up" data-aos-delay="900" data-aos-duration="2500">
+						<h1>Desarrollador Web para tu Empresa en Venezuela</h1>
+						<p><b class="sub-header__title--hi">Hola<span>_</span></b> mi nombre es <b>Demis Fermín</b> y soy <strong>Desarrollador Web</strong>, trabajamos con <strong>costos que se adapten a tu Presupuesto</strong> pero con Grandes Resultados.<br><br><strong class="impulse">Impulsa YA tu Emprendimiento...</strong></p>
+						<a href="#contact" id="sub-header__title--contact">CONSULTA AQUÍ</a>
 					</div>
 				</div>
 			</header>
-			<article id="info" data-aos="fade-zoom-in" data-aos-easing="ease-in-back" data-aos-delay="80" data-aos-offset="0">
-				<h3>Información</h3>
-				<p>Hola, mi nombre es Demis J Fermín creador de <b>DemisWebs</b>, Me dedico al Diseño Web y trabajo con los lenguajes de Programación básicos y avanzados para la maquetación y diseño de tu Web. Estoy ubicado en Margarita, Nueva Esparta, Venezuela, donde soy de los pocos Diseñadores Web de mi localidad.</p><br>
-				<p>Si no sabes que es un diseño o que son las páginas web, aquí te dejo unos links<br><a href="https://conceptodefinicion.de/diseno/">Qué es un Diseño</a> <a href="https://es.wikipedia.org/wiki/Página_web">Qué es una Página Web</a></p>
-			</article>
-			<section class="offering">
-				<h2>¿Por qué debo elegir Demis<b>Webs</b>?</h2>
-				<h3>¡Empieza ya!</h3>
-				<div class="flex-img">
-					<img src="img/ilustration2.svg" alt="Ilustration Done" class="img-done" data-aos="fade-right" data-aos-duration="1400">
-					<div class="article1" data-aos="fade-up" data-aos-duration="1000">
-						<article>
-							<h3><i class="fa-regular fa-circle-check"></i> Precios</h3>
-							<p>Con nosotros conseguirás los mejores precios del Mercado</p>
-						</article>
-						<article>
-							<h3><i class="fa-regular fa-circle-check"></i> Soporte</h3>
-							<p>Ten soporte 24/7, a la hora que necesites estaremos para ayudarte</p>
-						</article>
-						<article>
-							<h3><i class="fa-regular fa-circle-check"></i> Rapidéz</h3>
-							<p>Contáctame y en poco tiempo tendrás tu sitio Web funcionando</p>
-						</article>
-					</div>
+			<section class="offering" data-aos="fade-right" data-aos-delay="100" data-aos-duration="1000">
+				<div class="offering__offering-ctn">
+					<article>
+						<h3><i class="fa-solid fa-hand-holding-dollar"></i><br>Tienes poco Presupuesto?</h3>
+						<p>Te ofrecemos los mejores precios del Mercado y con diferentes Planes ajustandose a tu presupuesto.</p>
+					</article>
+					<article>
+						<h3><i class="fa-solid fa-headset"></i><br>Soporte 24/7</h3>
+						<p>Activos a toda hora para responder tus preguntas, y atenderte en lo que necesites...</p>
+					</article>
+					<article>
+						<h3><i class="fa-solid fa-jet-fighter-up"></i><br>Calidad y Rapidez</h3>
+						<p>Haz tu pedido y trabajaremos rapidamente en tu Sitio Web, estando listo en el menor tiempo posible.</p>
+					</article>
 				</div>
-				<article>
-					<h3 id="contact-h3">¡Contáctame YA!</h3>
-					<form action="https://formspree.io/f/mknyznab" method="POST" id="form">
-						<img src="img/ilustration3.svg" alt="Contact-Social" class="img-contact" data-aos="zoom-in" data-aos-duration="1100">
-						<div class="form-cont" data-aos="fade-up" data-aos-duration="700">
-							<h3>Envía tu Mensaje</h3>
-							<label for="nombre">
-								Nombre:
-								<input type="text" placeholder="Ingresa tu nombre" required name="firstname">
-							</label>
-							<label for="email">
-								Correo:
-								<input type="email" placeholder="Ingresa tu correo" required name="email">
-							</label>
-							<label for="message">Escribe tu mensaje
-								<textarea name="message"></textarea>
-							</label>
-							<input type="submit" class="enviar">
-						</div>
-					</form>
-					<div class="social-btn">
-						<h3><a href="#red-social">Mis Redes Sociales <br><i class="fa-solid fa-angle-down"></i></a></h3>
-					</div>
-				</article>
-				<article class="proyects" data-aos="fade-up" data-aos-duration="1100">
-					<h2>Proyectos</h2>
-					<div class="cont-proyects">
-						<a href="proyect1.html"><div class="proyect-1"><img src="img/proyect1.jpg"></div></a>
-						<a href="#"><div class="proyect-2"></div></a>
-						<a href="#"><div class="proyect-3"></div></a>
-						<a href="#"><div class="proyect-4"></div></a>
-					</div>
-				</article>
+				<div class="offering-ctn__plan" id="portafolios">
+					<a href="sub-pages/plans.html">Ver Planes <i class="fa-solid fa-share"></i></a>
+				</div>
 			</section>
-			<footer>
-				<div class="grupo-1">
-					<div class="box">
-						<figure><a href="index.html">
-							<img src="img/logo-dw.jpg" alt="Logo DemisWebs">
-						</a></figure>
+			<div class="swiper mySwiper">
+				<h2 class="projects">Portafolios</h2>
+				<div class="swiper-wrapper">
+					<div class="swiper-slide"><img src="img/proyect1.jpg"> <a href="https://demiswebs.github.io/que-es-el-codigo-web/" target="_BLANK"  id="contact">VER <i class="fa-solid fa-eye"></i></a></div>
+					<div class="swiper-slide"><img src="img/coming-soon.png"></div>
+					<div class="swiper-slide"><img src="img/coming-soon.png"></div>
+					<div class="swiper-slide"><img src="img/coming-soon.png"></div>
+				</div>
+				<div class="swiper-button-prev"></div>
+				<div class="swiper-button-next"></div>
+				<p class="swipe__p"><i class="fa-solid fa-arrow-left"></i> Desliza para ver más <i class="fa-solid fa-arrow-right"></i></p>
+			</div>
+			<section class="contact">
+				<h2>Consulta Aquí</h2>
+				<form action="https://formspree.io/f/xvojpjvb" method="POST" class="contact__form">
+					<label for="Nombre">Nombre y Apellido</label>
+					<input type="text" name="Nombre" maxlength="20" placeholder="Escribe tu nombre..." required>
+					<label for="Email">Email</label>
+					<input type="email" name="Email" placeholder="Escribe tu Email" required>
+					<label for="Mensaje">Consulta / Duda / Etc.</label>
+					<textarea name="Mensaje" size="no-resize" placeholder="Escribe tu mensaje aquí" required></textarea>
+					<input type="submit" class="send" value="Enviar">
+				</form>
+			</section>
+			<footer id="info">
+				<div class="footer-ctn">
+					<div class="left">
+						<h3>Información</h3>
+						<p>Mi nombre es Demis Fermin y soy Desarrollador Web Freelancer, ubicado en Margarita, Nueva Esparta, Venezuela, trabajo con los costos más bajos del mercado pero con grandes resultados. <br>Contáctanos y pon en marcha tu Sitio Web. No dudes en consultar y expander tu Negocio, Empresa etc.</p>
 					</div>
-					<div class="box">
-						<h3>SOBRE DEMISWEBS</h3>
-						<p>Soy un jóven estudiante y Free-Lancer</p>
-						<p>Tenemos los mejores precios del Mercado<br>Obtén tu página ahora!</p>
-					</div>
-					<div class="box">
-						<h3>SÍGUEME</h3>
-						<div id="red-social">
-							<a href="https://www.instagram.com/demiswebs/" title="Instagram"><i class="fa-brands fa-instagram"></i></a>
-							<a href="https://twitter.com/DemisWebs" title="Twitter"><i class="fa-brands fa-twitter"></i></a>
-							<a href="https://www.linkedin.com/in/demiswebs-✔-4b4850234/" title="LinkedIn"><i class="fa-brands fa-linkedin"></i></a><br>
-							<a href="mailto:demisjosefermin@gmail.com?subject=Te%20envío%20este%20mensaje%20desde%20tu%20Sitio%20Web" id="email" class="fa-solid fa-at" title="Email"></a>
+					<div class="right">
+						<h3>Follow</h3>
+						<div class="socials">
+							<a href="https://instagram.com/demiswebs" target="_BLANK" class="ig"><i class="fa-brands fa-instagram"></i></a>
+							<a href="https://twitter.com/DemisWebs" target="_BLANK" class="twitter"><i class="fa-brands fa-twitter"></i></a>
+							<a href="https://wa.me/04269895709" target="_BLANK" class="whatsapp"><i class="fa-brands fa-whatsapp"></i></a>
 						</div>
 					</div>
 				</div>
-				<div class="grupo-2">
-					<small>&copy; 2022 Demis<b>Webs</b> | Todos los Derechos Reservados</small>
+				<div class="down">
+					<p>&copy; All rights reserved | <a href="index.html">DemisWebs</a></p>
 				</div>
 			</footer>
+			<script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
 			<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+			<script src="js/main.js"></script>
 			<script>
 				AOS.init();
 			</script>
